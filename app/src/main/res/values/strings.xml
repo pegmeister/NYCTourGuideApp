@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">NYC Tour Guide App</string>
+
+    <string name="category_landmark">Landmark</string>
+    <string name="category_mustsee">Must-See</string>
+    <string name="category_dine">Dining</string>
+    <string name="category_shop">Shopping</string>
+
+    <string name="loc_image">location image</string>
+    <string name="webinfo_icon">external website info</string>
+
+    <style name="web_info">website information</style>
+
+    <!-- Landmarks -->
+    <string name="Central">Central Park</string>
+    <string name="cp_loc">59th-110th Street, Manhattan</string>
+    <string name="cp_web">http://www.centralparknyc.org</string>
+
+    <string name="Rockefeller">Rockefeller Center</string>
+    <string name="rc_loc">45 Rockefeller Plaza, Midtown</string>
+    <string name="rc_web">https://www.topoftherocknyc.com</string>
+
+    <string name="National">National 911 Memorial</string>
+    <string name="national_loc">180 Greenwich Street, WTC</string>
+    <string name="national_web">https://www.911memorial.org</string>
+
+    <string name="Empire">Empire State Building</string>
+    <string name="es_loc">350 Fifth Avenue, Midtown</string>
+    <string name="es_web">http://www.esbnyc.com</string>
+
+    <string name="liberty">Statue of Liberty and Ellis Island</string>
+    <string name="liberty_loc">Liberty Island</string>
+    <string name="liberty_web">https://www.statueoflibertytickets.com</string>
+
+    <string name="guggenheim">The Guggenheim Museum</string>
+    <string name="gug_loc">1071 Fifth Avenue</string>
+    <string name="gug_web">https://www.guggenheim.org</string>
+
+    <!-- Must-See -->
+    <string name="cathedral">St. Patrick Cathedral</string>
+    <string name="cathedral_loc">460 Madison Avenue</string>
+    <string name="cathedral_web">https://saintpatrickscathedral.org</string>
+
+    <string name="MET">The Metropolitan Museum of Art</string>
+    <string name="met_loc">1000 Fifth Avenue, Midtown</string>
+    <string name="met_web">https://www.metmuseum.org</string>
+
+    <string name="square">Times Square and Broadway</string>
+    <string name="ts_loc">Broadway and 42nd Street</string>
+    <string name="ts_web">https://www.timessquarenyc.org</string>
+
+    <string name="village">Greenwich Village</string>
+    <string name="village_loc">14th street and West of Broadway</string>
+    <string name="village_web">https://www.villagechelsea.com</string>
+
+    <string name="stone">Stone Street Historic District/Financial District</string>
+    <string name="stone_loc">Stone street, downtown</string>
+    <string name="stone_web">http://www.cityroverwalks.com/stone-street-nyc/</string>
+
+    <string name="radio">Radio City Music Hall</string>
+    <string name="radio_loc">1260 6th Avenue, Midtown</string>
+    <string name="radio_web">https://www.msg.com/radio-city-music-hall</string>
+
+    <!-- Dining -->
+
+    <string name="cull">Cull and Pistol</string>
+    <string name="cull_loc">75 9th Avenue</string>
+    <string name="cull_web">https://lobsterplace.com/pages/restaurant-welcome</string>
+
+    <string name="tree">Tree Bistro</string>
+    <string name="tree_loc">190 First Avenue</string>
+    <string name="tree_web">http://www.treebistro.com</string>
+
+    <string name="decoy">Decoy Bar</string>
+    <string name="decoy_loc">529 Hudson Street</string>
+    <string name="decoy_web">https://www.decoynyc.com</string>
+
+    <string name="gotham">Gotham Bar and Grill</string>
+    <string name="gotham_loc">12 East 12th Street</string>
+    <string name="gotham_web">https://gothambarandgrill.com</string>
+
+    <string name="club">Club A Steakhouse</string>
+    <string name="club_loc">240 East 58th Street</string>
+    <string name="club_web">http://www.clubasteakhouse.com</string>
+
+    <string name="modern">The Modern</string>
+    <string name="modern_loc">9 West 53rd Street</string>
+    <string name="modern_web">https://www.themodernnyc.com</string>
+
+    <!-- Shopping -->
+
+    <string name="bloomie">Bloomingdales</string>
+    <string name="bloomie_loc">1000 Third Avenue</string>
+    <string name="bloomie_web">https://www.bloomingdales.com</string>
+
+    <string name="girl">American Girl Place</string>
+    <string name="girl_loc">75 Rockefeller Plaza</string>
+    <string name="girl_web">https://www.americangirl.com</string>
+
+    <string name="tiffany">Tiffany and Co.</string>
+    <string name="tiffany_loc">727 Fifth Avenue</string>
+    <string name="tiffany_web">https://www.tiffany.com</string>
+
+    <string name="design">MoMA Design Store</string>
+    <string name="design_loc">44 West 53rd Street</string>
+    <string name="design_web">https://store.moma.org</string>
+
+    <string name="goodman">Bergdorf Goodman</string>
+    <string name="goodman_loc">754 Fifth Avenue</string>
+    <string name="goodman_web">https://www.bergdorfgoodman.com</string>
+
+    <string name="nba">NBA Store</string>
+    <string name="nba_loc">545 Fifth Avenue</string>
+    <string name="nba_web">https://www.nycgo.com/shopping/nba-store</string>
+
+</resources>
