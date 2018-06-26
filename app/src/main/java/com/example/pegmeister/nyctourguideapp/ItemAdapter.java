@@ -25,28 +25,25 @@ public class ItemAdapter extends ArrayAdapter<Item> {
 
         ViewHolderItem viewHolder;
 
-        //Check if an existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
-
         // If listItemView is null, inflate it from list_item
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
 
             // setup the ViewHolder
             viewHolder = new ViewHolderItem();
 
             // Find the TextView in the list_item layout with the ID title, location, ratings and image.
-            viewHolder.title = listItemView.findViewById(R.id.title);
-            viewHolder.location = listItemView.findViewById(R.id.location);
-            viewHolder.image = listItemView.findViewById(R.id.image);
+            viewHolder.title = convertView.findViewById(R.id.title);
+            viewHolder.location = convertView.findViewById(R.id.location);
+            viewHolder.image = convertView.findViewById(R.id.image);
 
             // store the holder with the view
-            listItemView.setTag(viewHolder);
+            convertView.setTag(viewHolder);
 
         } else {
 
             // avoid frequent calling of findViewById(), just use viewHolder
-            viewHolder = (ViewHolderItem) listItemView.getTag();
+            viewHolder = (ViewHolderItem) convertView.getTag();
         }
 
         // get the current item with position id
@@ -61,7 +58,7 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         }
 
         // return the view
-        return listItemView;
+        return convertView;
     }
 
     // create ViewHolder class to improve scrolling performance

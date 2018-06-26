@@ -6,19 +6,18 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
-    final int PAGE_COUNT = 4;
-    private String tabTitle[] = new String[]{"Landmark", "Mustsee", "Dining", "Shopping"};
+
     private Context context;
 
     /**
      * create a new {@link CategoryAdapter} object.
      *
-     * @param fm is a fragment manager that will keep each fragment's state in the adapter
+     * @param fragmentManager is a fragment manager that will keep each fragment's state in the adapter
      *           across swipes
      */
 
-    public CategoryAdapter(FragmentManager fm, Context context) {
-        super(fm);
+    public CategoryAdapter(FragmentManager fragmentManager, Context context) {
+        super(fragmentManager);
         this.context = context;
     }
 
@@ -43,13 +42,24 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return PAGE_COUNT;
+        return 4;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         // generate title based on item position
-        return tabTitle[position];
+        switch (position) {
+            case 0:
+                return context.getString(R.string.category_landmark);
+            case 1:
+                return context.getString(R.string.category_mustsee);
+            case 2:
+                return context.getString(R.string.category_dine);
+            case 3:
+                return context.getString(R.string.category_shop);
+            default:
+                return null;
+        }
     }
 }
 
